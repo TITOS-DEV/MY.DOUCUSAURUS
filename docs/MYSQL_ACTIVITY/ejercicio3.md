@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 ---
 
-# Create a Page
+# Ejercicio 3
 
 Add **Markdown or React** files to `src/pages` to create a **standalone page**:
 

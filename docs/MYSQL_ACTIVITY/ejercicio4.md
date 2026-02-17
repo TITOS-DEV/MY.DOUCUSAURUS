@@ -1,43 +1,22 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
-# Ejercicio 4
+# Ejercicio 4:  Operaciones
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+Sistema de gestion de productos y poperaciones
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+## 1. Estado Inicial (Datos Desnormalizados)
+Aquí se muestra la estructura original antes de aplicar las reglas de normalización. Una "hoja de cálculo" plana con redundancia de datos.
 
-## Create your first React Page
+![Excel desnormalizado](./img/excel_ejercicio_4.png)
 
-Create a file at `src/pages/my-react-page.js`:
+---
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+## 2. Proceso de Normalización
+A continuación, se detalla la transición hacia un modelo relacional.
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+### Diseño Relacional (DER)
+Tras aplicar las formas normales (1FN, 2FN y 3FN), el diseño final quedó estructurado de la siguiente manera:
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+![DER normalizado](./img/DER_ejercicio_4.png)

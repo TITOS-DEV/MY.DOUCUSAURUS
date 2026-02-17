@@ -19,7 +19,7 @@ A continuación, se detalla la transición hacia un modelo relacional.
 ### Diseño Relacional (DER)
 Tras aplicar las formas normales (1FN, 2FN y 3FN), el diseño final quedó estructurado de la siguiente manera:
 
-![DER normalizado](./img/DER_ejercicio_3.png)
+![DER normalizado](./img/DER_ejercicio_1.png)
 
 
 
